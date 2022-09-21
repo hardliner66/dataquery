@@ -14,6 +14,11 @@ use {
     std::iter::empty,
 };
 
+// Err(Error::StorageMsg(
+//     "[Storage] Index::scan_indexed_data is not supported".to_owned(),
+// ))
+
+
 #[derive(Debug, Default, Clone, Serialize, Deserialize)]
 pub struct DataQuery {}
 
